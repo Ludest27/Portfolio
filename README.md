@@ -1,6 +1,6 @@
 # 📌 Portfolio - Ludivine Mooh
 
-Welcome to my portfolio repository! This space serves as a collection of my research, projects, and ongoing cryptographic implementations. My primary focus is **post-quantum cryptography (PQC)** and **cryptographic optimizations for resource-constrained environments**.
+Welcome to my portfolio repository! This space serves as a collection of my research, projects, and ongoing cryptographic implementations. My primary focus is **post-quantum cryptography (PQC) software optimizations**.
 
 ---
 
@@ -11,8 +11,9 @@ Welcome to my portfolio repository! This space serves as a collection of my rese
 - **"Enhancing ML-KEM Performance using Modular Reduction as Macro"** - *MITA 2024*
 
 ### **🔹 Ongoing Research**
-- **Optimizing ML-KEM (Kyber) for IoT Devices**: Improving memory efficiency and computational performance by replacing Keccak with Ascon-based functions.
-- **Security & Performance Evaluations**: Investigating IND-CCA2 security proofs, collision resistance, and implementation performance across various environments.
+- **Optimizing ML-KEM (Kyber) for IoT Devices**: Improving memory efficiency and computational performance by replacing Keccak with Ascon-based primitives.
+- **Security & Performance Evaluations**: Investigating IND-CCA2 security proofs, collision resistance, and implementation performance across various environments
+- **Thesis** : A Lightweight ML-KEM for embedded devices (Iot, RISC V,) .
 
 ---
 
