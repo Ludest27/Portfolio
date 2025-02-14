@@ -30,7 +30,7 @@ This repository contains some of my cryptographic implementations and performanc
 - **Description:** Memory profiling and execution time analysis for ML-KEM in IoT environments.
 - **Includes:** Static memory tracking, RAM usage estimation, and flash size monitoring.
 
-📌 **Note:** These implementations are experimental and part of ongoing research. They are not intended for direct use but serve as a reference for performance analysis and security evaluation.
+📌 **Note:** These implementations are experimental and part of ongoing research. They are not intended for direct use but serve as a reference for my work.
 
 ---
 
