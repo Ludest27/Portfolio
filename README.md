@@ -35,6 +35,7 @@ This repository contains some of my cryptographic implementations and performanc
 ---
 
  📬 **Contact**
+ For my full CV, see **cv_mooh.pdf** in this repository.
 If you have any questions or are interested in discussing my work, feel free to reach out!
 - **Email:** esther.ludivine@gmail.com
   
