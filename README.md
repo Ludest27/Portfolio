@@ -1,6 +1,6 @@
-# 📌 Portfolio - Ludivine Mooh
+# 📌 Ludivine MOOH- PQC Optimizations portfolio 
 
-Welcome to my portfolio repository! This space serves as a collection of my research, projects, and ongoing cryptographic implementations. My primary focus is **post-quantum cryptography (PQC) software optimizations**.
+"I'm a Master's student in Information Security at Pukyong National University passionate about securing systems in the post-quantum era. My research focuses on **software optimization of post-quantum cryptographic (PQC)** algorithms for resource-constrained devices, addressing the growing need for  security in IoT and embedded systems. I'm particularly interested in bridging the gap between theoretical cryptography and practical implementation, focusing on both performance and security.
 
 ---
 
@@ -18,6 +18,10 @@ Welcome to my portfolio repository! This space serves as a collection of my rese
 - **Security & Performance Evaluations**: Evaluating Perfomances, Maintaning security, implemntation on constrained devices i.o RISC V
 
 ---
+### **🔹 `project/` Folder**
+**Description:** : Papers
+- "Enhancing ML-KEM Performance through Macro-Based Modular Reduction Optimization" - Submited to MITA
+- "Optimizing ML-KEM for IoT Devices"- Outline
 
 ## 💻 Code Implementations
 This repository contains my current research which is ongoing
