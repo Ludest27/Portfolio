@@ -5,30 +5,32 @@ Welcome to my portfolio repository! This space serves as a collection of my rese
 ---
 
 ## 📖 Research & Publications
+### **🔹Research Focus**
+- **Post-Quantum Cryptography**: Optimizing ML-KEM implementations for resource-constrained devices
+- - **Perfomances**: Memory footprint reduction, latency optimizations  
 
 ### **🔹 Publications**
 - **"ECC Accelerator using Faster Montgomery Ladder on FPGA Devices"** - *Busan Cyber Security Conference, 2024*
 - **"Enhancing ML-KEM Performance using Modular Reduction as Macro"** - *MITA 2024*
 
-### **🔹 Ongoing Research**
+### **🔹 Ongoing Research : **Thesis**
 - **Optimizing ML-KEM (Kyber) for IoT Devices**: Improving memory efficiency and computational performance by replacing Keccak with Ascon-based primitives.
-- **Security & Performance Evaluations**: Investigating IND-CCA2 security proofs, collision resistance, and implementation performance across various environments
-- **Thesis** : A Lightweight ML-KEM for embedded devices (Iot, RISC V,) .
+- **Security & Performance Evaluations**: Evaluating Perfomances, Maintaning security, implemntation on constrained devices i.o RISC V
 
 ---
 
 ## 💻 Code Implementations
-This repository contains some of my cryptographic implementations and performance testing scripts.
+This repository contains my current research which is ongoing
 
 ### **🔹 `code/` Folder - Cryptographic Implementations**
 
-#### `ascon_mlkem.c`
-- **Description:** Partial implementation of **Ascon-based ML-KEM**, replacing Keccak-based hashing with Ascon-XOF for improved memory efficiency.
-- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized for key encapsulation and decapsulation.
+#### `ref`
+- **Description:** contains the reference code for ML-KEM with ascon.
+- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized for latency but memory improvement can already be seen.
 
-#### `iot_memory_test.c`
-- **Description:** Memory profiling and execution time analysis for ML-KEM in IoT environments.
-- **Includes:** Static memory tracking, RAM usage estimation, and flash size monitoring.
+#### `test`
+- **Description:** contains all the test for memory, but also validation and integration tests.
+- **Includes:** Static memory tracking, RAM usage estimation, and flash size monitoring, latency.
 
 📌 **Note:** These implementations are experimental and part of ongoing research. They are not intended for direct use but serve as a reference for my work.
 
