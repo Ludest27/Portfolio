@@ -105,17 +105,17 @@ static void print_iot_summary(const char* operation, iot_metrics_t metrics) {
     printf("Flash usage: %zu/%d bytes\n", metrics.flash_usage, SENSOR_FLASH_SIZE);
 
     if (metrics.flash_usage > SENSOR_FLASH_SIZE * 0.9) {
-        printf("⚠️ WARNING: Flash usage is reaching the limit (%.2f%% used)!\n",
+        printf(" Flash usage is reaching the limit (%.2f%% used)!\n",
               (metrics.flash_usage / (double)SENSOR_FLASH_SIZE) * 100);
     }
 
     printf("RAM usage: %zu/%d bytes\n", metrics.temp_buffer_size, SENSOR_RAM_SIZE);
 
     if (metrics.temp_buffer_size > SENSOR_RAM_SIZE) {
-        printf("❌ ERROR: RAM usage exceeds IoT device capacity by %zu bytes!\n",
+        printf("ERROR: RAM usage exceeds IoT device capacity by %zu bytes!\n",
               metrics.temp_buffer_size - SENSOR_RAM_SIZE);
     } else if (metrics.temp_buffer_size > SENSOR_RAM_SIZE * 0.9) {
-        printf("⚠️ WARNING: High RAM usage (%.2f%% of limit reached)!\n",
+        printf("WARNING: High RAM usage (%.2f%% of limit reached)!\n",
               (metrics.temp_buffer_size / (double)SENSOR_RAM_SIZE) * 100);
     }
 }
