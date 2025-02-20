@@ -19,7 +19,7 @@ I'm a Master's student in Information Security at Pukyong National University pa
 
 ---
 ### **🔹 `project/` Folder**
-**Description:** : Papers
+**Description:** : this folder contain my submitted paper and my current work outline
 - "Enhancing ML-KEM Performance through Macro-Based Modular Reduction Optimization" - Submited to MITA
 - "Optimizing ML-KEM for IoT Devices"- Outline
 
@@ -30,7 +30,7 @@ This repository contains my current research which is ongoing
 
 #### `ref`
 - **Description:** contains the reference code for ML-KEM with ascon.
-- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized. However there are already significant memory improvement. further optimizations are needed
+- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized. However there are already significant memory improvement. Additional platform testing and latency optimization are needed
 
 #### `test`
 - **Description:** contains all the test for memory, but also validation and integration tests.
