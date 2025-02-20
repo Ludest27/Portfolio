@@ -30,7 +30,7 @@ This repository contains my current research which is ongoing
 
 #### `ref`
 - **Description:** contains the reference code for ML-KEM with ascon.
-- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized for latency but memory improvement can already be seen.
+- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized. However there are already significant memory improvement. further optimizations are needed
 
 #### `test`
 - **Description:** contains all the test for memory, but also validation and integration tests.
