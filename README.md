@@ -5,45 +5,38 @@ I'm a Master's student in Information Security at Pukyong National University pa
 ---
 
 ## 📖 Research & Publications
-### **🔹Research Focus**
-- **Post-Quantum Cryptography**: Optimizing ML-KEM implementations for resource-constrained devices
-- - **Perfomances**: Memory footprint reduction, latency optimizations  
 
-### **🔹 Publications**
-- **"ECC Accelerator using Faster Montgomery Ladder on FPGA Devices"** - *Busan Cyber Security Conference, 2024*
-- **"Enhancing ML-KEM Performance using Modular Reduction as Macro"** - *MITA 2024*
+### 🔹 Research Focus
+* **Post-Quantum Cryptography**: Optimizing ML-KEM implementations for resource-constrained devices
+* **Performance and Memory Optimization**: Implementation efficiency and optimization techniques
+  * Modular arithmetic optimization achieving 18-21% latency reduction
+  * Memory footprint reduction strategies : 26% reduction in code size
 
-### **🔹 Ongoing Research : **Thesis**
-- **Optimizing ML-KEM (Kyber) for IoT Devices**: Improving memory efficiency and computational performance by replacing Keccak with Ascon-based primitives.
-- **Security & Performance Evaluations**: Evaluating Perfomances, Maintaning security, implemntation on constrained devices i.o RISC V
 
----
-### **🔹 `project/` Folder**
-**Description:** : this folder contain my submitted paper and my current work outline
-- "Enhancing ML-KEM Performance through Macro-Based Modular Reduction Optimization" - Submited to MITA
-- "Optimizing ML-KEM for IoT Devices"- Outline
+### 🔹 Publications
+* **"ECC Accelerator using Faster Montgomery Ladder on FPGA Devices"** - *Busan Cyber Security Conference, 2024*
+* **"Enhancing ML-KEM Performance using Modular Reduction as Macro"** - *MITA 2024*
 
-## 💻 Code Implementations
-This repository contains my current research which is ongoing
+### 🔹 Ongoing Research: **Thesis**
+* **Optimizing ML-KEM (Kyber) for IoT Devices**: Exploring ASCON integration for potential memory and performance improvements. Other ML-KEM optimization balancing performance and memory for IoT and constrained Devices.
 
-### **🔹 `code/` Folder - Cryptographic Implementations**
+## 📂 Repository Structure
 
-#### `ref`
-- **Description:** contains the reference code for ML-KEM with ascon.
-- **Status:** 🚧 *Work in progress* – Ascon integration is still being optimized. However there are already significant memory improvement. Additional platform testing and latency optimization are needed
+### 🔹 `research-implementations/` Folder
+* **Purpose**: Contains ongoing research implementations and experiments
+* **Content**:
+  * `ref/`: ML-KEM implementation with ASCON integration experiments
+  * `test/`: Comprehensive test suite for memory, validation, and performance
+* **Note**: Code represents active research with various approaches being tested
 
-#### `test`
-- **Description:** contains all the test for memory, but also validation and integration tests.
-- **Includes:** Static memory tracking, RAM usage estimation, and flash size monitoring, latency.
+### 🔹 `projects/` Folder
+* **"Enhancing ML-KEM Performance through Macro-Based Modular Reduction Optimization"** - MITA 2024
+* **"Optimizing ML-KEM for IoT Devices"** - Research Outline
 
-📌 **Note:** These implementations are experimental and part of ongoing research. They are not intended for direct use but serve as a reference for my work.
+📌 **Note:** These implementations are experimental and part of ongoing research. They demonstrate my optimization approaches and research methodology but are not intended for production use.
 
----
-
- 📬 **Contact**
- - For my full CV, see **cv_mooh.pdf** in this repository.
-If you have any questions or are interested in discussing my work, feel free to reach out!
-- **Email:** esther.ludivine@gmail.com
-  
+## 📬 Contact
+* See **cv_mooh.pdf** for my full CV
+* **Email:** esther.ludivine@gmail.com
 
 🚀 Thank you for visiting my portfolio!
