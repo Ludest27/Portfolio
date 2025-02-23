@@ -22,7 +22,7 @@ I'm a Master's student in Information Security at Pukyong National University pa
 
 ## 📂 Repository Structure
 
-### 🔹 `research-implementations/` Folder
+### 🔹 `research-code/` Folder
 * **Purpose**: Contains ongoing research implementations and experiments
 * **Content**:
   * `ref/`: ML-KEM implementation with ASCON integration experiments
