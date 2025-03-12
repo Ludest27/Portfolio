@@ -1,4 +1,4 @@
-# 📌 Ludivine MOOH－Security researcher
+# 📌 Ludivine MOOH－Security
 
 I'm a Master's student in Information Security at Pukyong National University passionate about securing systems in the post-quantum era. My research focuses on **software optimization of post-quantum cryptographic (PQC)** algorithms for resource-constrained devices, addressing the growing need for  security in IoT and embedded systems. I'm particularly interested in bridging the gap between theoretical cryptography and practical implementation, focusing on both performance and security.
 
