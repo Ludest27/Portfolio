@@ -36,9 +36,22 @@ The projects include **research work, PKI implementations, secure network protoc
 - **Log Analysis Tool:**
   - A Bash script that scans system authentication logs (e.g., `/var/log/auth.log` or `/var/log/secure`) for suspicious activities like failed login attempts and authentication failures.
   - Automates the detection of potential security issues through log monitoring.
-
 ## Repository Structure
-Portfolio/ ├── research_code/ # Ongoing research implementations and experiments ├── projects/ # Experimental projects (e.g., PQC research) ├── PKI/ │ ├── RSA/ # RSA projects (key generation, encryption/decryption) │ └── ECC/ # ECC projects (key generation, digital signatures) ├── Protocol/ # TLS/SSL secure server and client implementations ├── SystemSecurity/ # File integrity monitoring tool (C, OpenSSL) ├── SecurityAutomation/ # Security automation scripts (e.g., log analysis in Bash) ├── additional/ # Other relevant documents (certifications, participation records, etc.) └── README.md #
+
+```bash
+Portfolio/
+│── research_code/         # Ongoing research implementations and experiments
+│── projects/              # Experimental projects (e.g., PQC research)
+│── PKI/
+│   ├── RSA/               # RSA projects (key generation, encryption/decryption)
+│   └── ECC/               # ECC projects (key generation, digital signatures)
+│── Protocol/              # TLS/SSL secure server and client implementations
+│── SystemSecurity/        # File integrity monitoring tool (C, OpenSSL)
+│── SecurityAutomation/    # Security automation scripts (e.g., log analysis in Bash)
+│── additional/            # Other relevant documents (certifications, participation records, etc.)
+
+
+
 
 ---
 
