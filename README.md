@@ -1,42 +1,70 @@
 # 📌 Ludivine MOOH
+Hello, I'm Ludivine Mooh, a Master's student in Information Security at Pukyong National University. I am passionate about securing systems in the post-quantum era, with research focused on software optimization of post-quantum cryptographic (PQC) algorithms for resource-constrained devices in IoT and embedded systems. I strive to bridge the gap between theoretical cryptography and practical implementation by focusing on both performance and security.
 
-I'm a Master's student in Information Security at Pukyong National University passionate about securing systems in the post-quantum era. My research focuses on **software optimization of post-quantum cryptographic (PQC)** algorithms for resource-constrained devices, addressing the growing need for  security in IoT and embedded systems. I'm particularly interested in bridging the gap between theoretical cryptography and practical implementation, focusing on both performance and security.
+## Portfolio Overview
+
+This repository demonstrates a variety of projects that showcase my skills across different aspects of security engineering. The projects include research work, PKI implementations, secure network protocols, system security tools, and security automation scripts.
+
+### Projects
+
+#### 1. Research & Publications
+- **Post-Quantum Cryptography (PQC):**
+  - *Research Focus:* Optimizing ML-KEM implementations for resource-constrained devices.
+  - *Publications:* 
+    - "ECC Accelerator using Faster Montgomery Ladder on FPGA Devices" – Busan Cyber Security Conference, 2024.
+    - "Enhancing ML-KEM Performance using Modular Reduction as Macro" – MITA 2024.
+  - *Ongoing Research:* Thesis on optimizing ML-KEM (Kyber) for IoT Devices.
+
+#### 2. PKI Projects
+- **RSA PKI:**
+  - Demonstrates RSA key generation, encryption, and decryption using OpenSSL in C.
+- **ECC PKI:**
+  - Implements ECC key generation and digital signature functionality using OpenSSL in C.
+
+#### 3. Protocol Projects
+- **TLS/SSL Protocol:**
+  - Secure server and client implementations using OpenSSL in C.
+  - Includes certificate generation and management for a secure communication channel.
+
+#### 4. System Security Projects
+- **File Integrity Monitoring Tool:**
+  - A C-based tool that computes SHA-256 hashes (using OpenSSL) to monitor file integrity.
+  - Provides both initialization (baseline creation) and checking modes to detect file changes.
+
+#### 5. Security Automation Projects
+- **Log Analysis Tool:**
+  - A Bash script that scans system authentication logs (e.g., `/var/log/auth.log` or `/var/log/secure`) for suspicious activities like failed login attempts and authentication failures.
+  - Automates the detection of potential security issues through log monitoring.
+
+## Repository Structure
+Portfolio/
+├── research_code/         # Ongoing research implementations and experiments
+├── projects/              # Experimental projects (e.g., PQC research)
+├── PKI/
+│   ├── RSA/               # RSA projects (key generation, encryption/decryption)
+│   └── ECC/               # ECC projects (key generation, digital signatures)
+├── Protocol/              # TLS/SSL secure server and client implementations
+├── SystemSecurity/        # File integrity monitoring tool (C, OpenSSL)
+├── SecurityAutomation/    # Security automation scripts (e.g., log analysis in Bash)
+└── README.md              
 
 ---
 
-## 📖 Research & Publications
+## Build and Usage
 
-### 🔹 Research Focus
-* **Post-Quantum Cryptography**: Optimizing ML-KEM implementations for resource-constrained devices
-* **Performance and Memory Optimization**: Implementation efficiency and optimization techniques
-  * Modular arithmetic optimization achieving 18-21% latency reduction
-  * Memory footprint reduction strategies : 26% reduction in code size
+Each project contains its own README and Makefile (if applicable) with detailed build and usage instructions. In general:
+- **Build:** Navigate to the project directory and run `make` (or compile manually as instructed).
+- **Usage:** Follow the instructions in each project's README to run the tools or applications.
+- Please note all the codes here are not for deployments.
 
+---
 
-### 🔹 Publications
-* **"ECC Accelerator using Faster Montgomery Ladder on FPGA Devices"** - *Busan Cyber Security Conference, 2024*
-* **"Enhancing ML-KEM Performance using Modular Reduction as Macro"** - *MITA 2024*
+## Contact
 
-### 🔹 Ongoing Research: **Thesis**
-* **Optimizing ML-KEM (Kyber) for IoT Devices**: Exploring ASCON integration for potential memory and performance improvements. Other ML-KEM optimization balancing performance and memory for IoT and constrained Devices.
+For more details or to view my full CV, please see the attached "MOOH LUDIVINE ESTHER_CV.pdf" file in this repository.  
+You can also reach out via email at [esther.ludivine@gmail.com](mailto:esther.ludivine@gmail.com).
 
-## 📂 Repository Structure
+---
 
-### 🔹 `research-code/` Folder
-* **Purpose**: Contains ongoing research implementations and experiments
-* **Content**:
-  * `ref/`: ML-KEM implementation with ASCON integration experiments
-  * `test/`: Comprehensive test suite for memory, validation, and performance
-* **Note**: Code represents active research with various approaches being tested
+Thank you for visiting my portfolio!
 
-### 🔹 `projects/` Folder
-* **"Enhancing ML-KEM Performance through Macro-Based Modular Reduction Optimization"** - MITA 2024
-* **"Optimizing ML-KEM for IoT Devices"** - Research Outline
-
-📌 **Note:** These implementations are experimental and part of ongoing research. They demonstrate my optimization approaches and research methodology but are not intended for production use.
-
-## 📬 Contact
-* See **Mooh Ludivine Esther_cv.pdf** for my full CV
-* **Email:** esther.ludivine@gmail.com
-
-🚀 Thank you for visiting my portfolio!
