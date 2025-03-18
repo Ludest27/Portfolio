@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = -m32 -g -fno-pie -no-pie
+
+mt: t.o ts.o
+	$(CC) $(CFLAGS) t.o ts.o -o mt
+
+t.o: t.c
+	$(CC) $(CFLAGS) -c t.c
+
+ts.o: ts.s
+	$(CC) $(CFLAGS) -c ts.s
+
+clean:
+	rm -f *.o mt
