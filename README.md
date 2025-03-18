@@ -1,9 +1,10 @@
 # 📌 Ludivine MOOH
-Hello, I'm Ludivine Mooh, a Master's student in Information Security at Pukyong National University. I am passionate about securing systems in the post-quantum era, with research focused on software optimization of post-quantum cryptographic (PQC) algorithms for resource-constrained devices in IoT and embedded systems. I strive to bridge the gap between theoretical cryptography and practical implementation by focusing on both performance and security.
+Hello, I'm Ludivine Mooh, a Master's student in Information Security at Pukyong National University. My research interests include : **Post-Quantum Cryptography**, **Embedded devices**, **Secure Software Development**
 
 ## Portfolio Overview
 
-This repository demonstrates a variety of projects that showcase my skills across different aspects of security engineering. The projects include research work, PKI implementations, secure network protocols, system security tools, and security automation scripts.
+This repository contains a variety of projects showcasing my **technical skills** across different areas of **security engineering**.  
+The projects include **research work, PKI implementations, secure network protocols, system security tools, and security automation scripts**.
 
 ### Projects
 
