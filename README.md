@@ -49,10 +49,7 @@ Portfolio/
 │── SystemSecurity/        # File integrity monitoring tool (C, OpenSSL)
 │── SecurityAutomation/    # Security automation scripts (e.g., log analysis in Bash)
 │── additional/            # Other relevant documents (certifications, participation records, etc.)
-
-
-
-
+```
 ---
 
 ## Build and Usage
