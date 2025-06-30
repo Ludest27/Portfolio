@@ -1,5 +1,5 @@
 # 📌 Ludivine MOOH
-Hello, I'm Ludivine Mooh, a Master's student in Information Security at Pukyong National University. My research interests include : **Post-Quantum Cryptography**, **Embedded devices**, **Secure Software Development**
+Hello, I'm Ludivine Mooh, a Master's student in Information Security at Pukyong National University. My research interests include : **Post-Quantum Cryptography**, **Embedded devices**, **Secure Software Development** **Multi-Party Computation**
 
 ## Portfolio Overview
 
