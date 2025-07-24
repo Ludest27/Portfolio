@@ -63,7 +63,7 @@ Each project contains its own README and Makefile (if applicable) with detailed 
 
 ## Contact
 
-For more details or to view my full CV, please see the attached "MOOH LUDIVINE ESTHER_CV.pdf" file in this repository.  
+For more details or to view my full CV, please see the attached  file in this repository.  
 You can also reach out via email at [esther.ludivine@gmail.com](mailto:esther.ludivine@gmail.com).
 
 ---
