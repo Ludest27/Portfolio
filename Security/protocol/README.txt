@@ -43,5 +43,4 @@ Requirements:
 
 Notes:
 ------
-This project is for demonstration purposes. In production,  certificates from a trusted CA and
- additional security measures are needed.
+This project is for demonstration purposes. 
